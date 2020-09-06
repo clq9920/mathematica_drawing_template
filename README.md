@@ -1,0 +1,2 @@
+# mathematica_drawing_template
+此仓库致力于用mathematica作出更加方便好看的图表
