@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    158825,       3452]
-NotebookOptionsPosition[    157230,       3416]
-NotebookOutlinePosition[    157641,       3433]
-CellTagsIndexPosition[    157598,       3430]
+NotebookDataLength[    173578,       3815]
+NotebookOptionsPosition[    171983,       3779]
+NotebookOutlinePosition[    172394,       3796]
+CellTagsIndexPosition[    172351,       3793]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2508,6 +2508,137 @@ Cell[BoxData[
  CellLabel->"Out[19]=",ExpressionUUID->"5718d0ca-b08b-40f7-a4a4-d730a7f5ec7f"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"thelistlineplot", "[", "]"}], "[", 
+  RowBox[{"Range", "[", "10", "]"}], "]"}]], "Input",
+ CellLabel->"In[53]:=",ExpressionUUID->"33210e0c-e5a9-4aa9-b48c-ef0e7f97d70d"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{{}, {}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+      LineBox[{{1., 1.}, {2., 2.}, {3., 3.}, {4., 4.}, {5., 5.}, {6., 6.}, {
+       7., 7.}, {8., 8.}, {9., 9.}, {10., 10.}}]}}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  BaseStyle->{
+    GrayLevel[0], 10, FontFamily -> "Cambria"},
+  DisplayFunction->Identity,
+  Frame->True,
+  FrameLabel->{
+    FormBox[
+     FractionBox[
+      RowBox[{"5", " ", "\[ExponentialE]", " ", "h"}], "y"], TraditionalForm], 
+    FormBox["\"Y,y\"", TraditionalForm]},
+  FrameStyle->Directive[
+    GrayLevel[0]],
+  FrameTicks->{{{{0., 
+       FormBox["0.`", TraditionalForm], {0, 0.015}}, {2., 
+       FormBox["2.`", TraditionalForm], {0, 0.015}}, {4., 
+       FormBox["4.`", TraditionalForm], {0, 0.015}}, {6., 
+       FormBox["6.`", TraditionalForm], {0, 0.015}}, {8., 
+       FormBox["8.`", TraditionalForm], {0, 0.015}}, {10., 
+       FormBox["10.`", TraditionalForm], {0, 0.015}}, {0., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {4., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {4.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {5., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {5.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {6., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {6.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {7., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {7.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {8., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {8.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {9., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {9.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {10., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}}, None}, {{{0., 
+       FormBox["0.`", TraditionalForm], {0, 0.015}}, {2., 
+       FormBox["2.`", TraditionalForm], {0, 0.015}}, {4., 
+       FormBox["4.`", TraditionalForm], {0, 0.015}}, {6., 
+       FormBox["6.`", TraditionalForm], {0, 0.015}}, {8., 
+       FormBox["8.`", TraditionalForm], {0, 0.015}}, {10., 
+       FormBox["10.`", TraditionalForm], {0, 0.015}}, {0., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {4., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {4.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {5., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {5.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {6., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {6.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {7., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {7.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {8., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {8.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {9., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {9.5, 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {10., 
+       FormBox["\"\"", TraditionalForm], {0, 0.008}}}, None}},
+  GridLines->{{0., 2., 4., 6., 8., 10., {1., 
+      Dashing[{Small, Small}]}, {3., 
+      Dashing[{Small, Small}]}, {5., 
+      Dashing[{Small, Small}]}, {7., 
+      Dashing[{Small, Small}]}, {9., 
+      Dashing[{Small, Small}]}}, {0., 2., 4., 6., 8., 10., {1., 
+      Dashing[{Small, Small}]}, {3., 
+      Dashing[{Small, Small}]}, {5., 
+      Dashing[{Small, Small}]}, {7., 
+      Dashing[{Small, Small}]}, {9., 
+      Dashing[{Small, Small}]}}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 10.}, {0, 10.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellLabel->"Out[53]=",ExpressionUUID->"cc312a2b-5543-4704-bf7e-518f1b1a1a1e"]
+}, Open  ]],
+
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
   RowBox[{
@@ -2545,6 +2676,9 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"myplot", "[", "ListPlot", "]"}], ":=", "thelistplot"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"myplot", "[", "ListLinePlot", "]"}], ":=", "thelistlineplot"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
@@ -2602,137 +2736,135 @@ Cell[BoxData[
         "\:8c03\:7528\:539f\:672c\:7684plot"}], "*)"}], "\[IndentingNewLine]", 
       RowBox[{
        RowBox[{
+        RowBox[{"plot", "[", "1", "]"}], "=", 
+        RowBox[{"Plot", "[", 
+         RowBox[{"inf", ",", "inrange", ",", 
+          RowBox[{"PlotLegends", "\[Rule]", 
+           RowBox[{"Placed", "[", 
+            RowBox[{
+             RowBox[{"SwatchLegend", "[", 
+              RowBox[{
+               RowBox[{"OptionValue", "[", "lable", "]"}], ",", 
+               RowBox[{"LegendMarkers", "\[Rule]", "\"\<Line\>\""}], ",", 
+               RowBox[{"LegendFunction", "\[Rule]", "shadowbox"}], ",", 
+               RowBox[{"LegendLayout", "\[Rule]", 
+                RowBox[{"OptionValue", "[", "LegendLayout", "]"}]}]}], "]"}], 
+             ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"0.7", ",", "0.9"}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"0.5", ",", "0.9"}], "}"}]}], "}"}]}], "]"}]}]}], 
+         "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"(*", "\:63d0\:53d6plot\:4e2d\:7684\:8303\:56f4", "*)"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{"range", "=", 
         RowBox[{
-         RowBox[{"plot", "[", "1", "]"}], "=", 
-         RowBox[{"Plot", "[", 
-          RowBox[{"inf", ",", "inrange", ",", 
-           RowBox[{"PlotLegends", "\[Rule]", 
-            RowBox[{"Placed", "[", 
-             RowBox[{
-              RowBox[{"SwatchLegend", "[", 
-               RowBox[{
-                RowBox[{"OptionValue", "[", "lable", "]"}], ",", 
-                RowBox[{"LegendMarkers", "\[Rule]", "\"\<Line\>\""}], ",", 
-                RowBox[{"LegendFunction", "\[Rule]", "shadowbox"}], ",", 
-                RowBox[{"LegendLayout", "\[Rule]", 
-                 RowBox[{"OptionValue", "[", "LegendLayout", "]"}]}]}], "]"}],
-               ",", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{"{", 
-                 RowBox[{"0.7", ",", "0.9"}], "}"}], ",", 
-                RowBox[{"{", 
-                 RowBox[{"0.5", ",", "0.9"}], "}"}]}], "}"}]}], "]"}]}]}], 
-          "]"}]}], ";", "\[IndentingNewLine]", 
-        RowBox[{"(*", "\:63d0\:53d6plot\:4e2d\:7684\:8303\:56f4", "*)"}], 
-        "\[IndentingNewLine]", 
-        RowBox[{"range", "=", 
-         RowBox[{
-          RowBox[{"MapIndexed", "[", 
+         RowBox[{"MapIndexed", "[", 
+          RowBox[{
            RowBox[{
             RowBox[{
-             RowBox[{
-              RowBox[{"#2", "[", 
-               RowBox[{"[", "1", "]"}], "]"}], "\[Rule]", "#1"}], "&"}], ",", 
+             RowBox[{"#2", "[", 
+              RowBox[{"[", "1", "]"}], "]"}], "\[Rule]", "#1"}], "&"}], ",", 
+           RowBox[{
             RowBox[{
+             RowBox[{"(", 
+              RowBox[{"PlotRange", "/.", 
+               RowBox[{"AbsoluteOptions", "[", 
+                RowBox[{"#", ",", "PlotRange"}], "]"}]}], ")"}], "&"}], "/@", 
+            RowBox[{"Values", "[", "plot", "]"}]}]}], "]"}], "//", 
+         "Association"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       RowBox[{"(*", "\:523b\:5ea6\:5212\:5206", "*)"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{"ticks", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"(", 
              RowBox[{
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"#", ",", "#", ",", 
+                 RowBox[{"{", 
+                  RowBox[{"0", ",", ".015"}], "}"}]}], "}"}], "&"}], "/@", 
               RowBox[{"(", 
-               RowBox[{"PlotRange", "/.", 
-                RowBox[{"AbsoluteOptions", "[", 
-                 RowBox[{"#", ",", "PlotRange"}], "]"}]}], ")"}], "&"}], "/@", 
-             RowBox[{"Values", "[", "plot", "]"}]}]}], "]"}], "//", 
-          "Association"}]}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", 
-        RowBox[{"(*", "\:523b\:5ea6\:5212\:5206", "*)"}], 
-        "\[IndentingNewLine]", 
-        RowBox[{"ticks", "=", 
-         RowBox[{
-          RowBox[{
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{
-                RowBox[{"{", 
-                 RowBox[{"#", ",", "#", ",", 
-                  RowBox[{"{", 
-                   RowBox[{"0", ",", ".015"}], "}"}]}], "}"}], "&"}], "/@", 
-               RowBox[{"(", 
-                RowBox[{"N", "@", 
-                 RowBox[{"FindDivisions", "[", 
-                  RowBox[{
-                   RowBox[{"#", "[", 
-                    RowBox[{"[", "1", "]"}], "]"}], ",", "6"}], "]"}]}], 
-                ")"}]}], ")"}], ",", 
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{
-                RowBox[{"{", 
-                 RowBox[{"#", ",", "\"\<\>\"", ",", 
-                  RowBox[{"{", 
-                   RowBox[{"0", ",", ".008"}], "}"}]}], "}"}], "&"}], "/@", 
                RowBox[{"N", "@", 
                 RowBox[{"FindDivisions", "[", 
                  RowBox[{
                   RowBox[{"#", "[", 
-                   RowBox[{"[", "1", "]"}], "]"}], ",", "30"}], "]"}]}]}], 
-              ")"}], ",", 
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{
-                RowBox[{"{", 
-                 RowBox[{"#", ",", "#", ",", 
-                  RowBox[{"{", 
-                   RowBox[{"0", ",", ".015"}], "}"}]}], "}"}], "&"}], "/@", 
-               RowBox[{"(", 
-                RowBox[{"N", "@", 
-                 RowBox[{"FindDivisions", "[", 
-                  RowBox[{
-                   RowBox[{"#", "[", 
-                    RowBox[{"[", "2", "]"}], "]"}], ",", "5"}], "]"}]}], 
-                ")"}]}], ")"}], ",", 
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{
-                RowBox[{"{", 
-                 RowBox[{"#", ",", "\"\<\>\"", ",", 
-                  RowBox[{"{", 
-                   RowBox[{"0", ",", ".008"}], "}"}]}], "}"}], "&"}], "/@", 
-               RowBox[{"N", "@", 
-                RowBox[{"FindDivisions", "[", 
-                 RowBox[{
-                  RowBox[{"#", "[", 
-                   RowBox[{"[", "2", "]"}], "]"}], ",", "25"}], "]"}]}]}], 
-              ")"}]}], "}"}], "&"}], "/@", "range"}]}], ";", 
-        "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        RowBox[{"(*", "\:6807\:8bb0\:70b9", "*)"}], "\[IndentingNewLine]", 
-        RowBox[{"mesh", "=", 
-         RowBox[{
-          RowBox[{
-           RowBox[{"ListPlot", "[", 
-            RowBox[{
+                   RowBox[{"[", "1", "]"}], "]"}], ",", "6"}], "]"}]}], 
+               ")"}]}], ")"}], ",", 
+            RowBox[{"(", 
              RowBox[{
-              RowBox[{"Table", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"#", ",", "\"\<\>\"", ",", 
+                 RowBox[{"{", 
+                  RowBox[{"0", ",", ".008"}], "}"}]}], "}"}], "&"}], "/@", 
+              RowBox[{"N", "@", 
+               RowBox[{"FindDivisions", "[", 
+                RowBox[{
+                 RowBox[{"#", "[", 
+                  RowBox[{"[", "1", "]"}], "]"}], ",", "30"}], "]"}]}]}], 
+             ")"}], ",", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"#", ",", "#", ",", 
+                 RowBox[{"{", 
+                  RowBox[{"0", ",", ".015"}], "}"}]}], "}"}], "&"}], "/@", 
+              RowBox[{"(", 
+               RowBox[{"N", "@", 
+                RowBox[{"FindDivisions", "[", 
+                 RowBox[{
+                  RowBox[{"#", "[", 
+                   RowBox[{"[", "2", "]"}], "]"}], ",", "5"}], "]"}]}], 
+               ")"}]}], ")"}], ",", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"#", ",", "\"\<\>\"", ",", 
+                 RowBox[{"{", 
+                  RowBox[{"0", ",", ".008"}], "}"}]}], "}"}], "&"}], "/@", 
+              RowBox[{"N", "@", 
+               RowBox[{"FindDivisions", "[", 
+                RowBox[{
+                 RowBox[{"#", "[", 
+                  RowBox[{"[", "2", "]"}], "]"}], ",", "25"}], "]"}]}]}], 
+             ")"}]}], "}"}], "&"}], "/@", "range"}]}], ";", 
+       "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       RowBox[{"(*", "\:6807\:8bb0\:70b9", "*)"}], "\[IndentingNewLine]", 
+       RowBox[{"mesh", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"ListPlot", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Table", "[", 
+              RowBox[{
                RowBox[{
                 RowBox[{
-                 RowBox[{
-                  RowBox[{"(", 
-                   RowBox[{"{", 
-                    RowBox[{"x", ",", "#"}], "}"}], ")"}], "&"}], "/@", 
-                 "inf"}], ",", 
-                RowBox[{"{", 
-                 RowBox[{"x", ",", 
-                  RowBox[{"#", "[", 
-                   RowBox[{"[", 
-                    RowBox[{"1", ",", ";;", ",", "1"}], "]"}], "]"}]}], 
-                 "}"}]}], "]"}], "//", "Transpose"}], ",", 
-             RowBox[{"PlotMarkers", "\[Rule]", 
-              RowBox[{"OptionValue", "[", "PlotMarkers", "]"}]}], ",", 
-             RowBox[{"PlotLegends", "\[Rule]", 
-              RowBox[{"{", 
-               RowBox[{"x", ",", "y"}], "}"}]}], ",", 
-             RowBox[{"PlotTheme", "->", "\"\<Default\>\""}]}], "]"}], "&"}], "/@",
-           "ticks"}]}], ";"}], "\[IndentingNewLine]", 
+                 RowBox[{"(", 
+                  RowBox[{"{", 
+                   RowBox[{"x", ",", "#"}], "}"}], ")"}], "&"}], "/@", 
+                "inf"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"x", ",", 
+                 RowBox[{"#", "[", 
+                  RowBox[{"[", 
+                   RowBox[{"1", ",", ";;", ",", "1"}], "]"}], "]"}]}], 
+                "}"}]}], "]"}], "//", "Transpose"}], ",", 
+            RowBox[{"PlotMarkers", "\[Rule]", 
+             RowBox[{"OptionValue", "[", "PlotMarkers", "]"}]}], ",", 
+            RowBox[{"PlotLegends", "\[Rule]", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", "y"}], "}"}]}], ",", 
+            RowBox[{"PlotTheme", "->", "\"\<Default\>\""}]}], "]"}], "&"}], "/@",
+          "ticks"}]}], ";", "\[IndentingNewLine]", 
        RowBox[{"(*", 
         RowBox[{"Echo", "[", 
          RowBox[{
@@ -2932,13 +3064,376 @@ Cell[BoxData[
           RowBox[{"Head", "[", "#", "]"}], "=!=", "List"}], "&"}], ")"}]}], 
       ",", "other___"}], "]"}], ":=", 
     RowBox[{
-     RowBox[{"theplot", "[", "x", "]"}], "[", 
+     RowBox[{"thelistplot", "[", "x", "]"}], "[", 
      RowBox[{
       RowBox[{"{", "inf", "}"}], ",", "other"}], "]"}]}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
-     RowBox[{"thelistplot", "[", 
+     RowBox[{
+      RowBox[{"thelistplot", "[", 
+       RowBox[{"OptionsPattern", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"lable", "\[Rule]", "\"\<Expressions\>\""}], ",", 
+          RowBox[{"LegendLayout", "->", "\"\<Column\>\""}], ",", 
+          RowBox[{"PlotMarkers", "\[Rule]", "\"\<OpenMarkers\>\""}]}], "}"}], 
+        "]"}], "]"}], "[", 
+      RowBox[{"inf_", ",", "other___"}], "]"}], ":=", 
+     RowBox[{"Block", "[", 
+      RowBox[{
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"range", "=", 
+          RowBox[{"<|", 
+           RowBox[{"1", "\[Rule]", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{"0", ",", "1"}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}], "|>"}]}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"plot", "=", 
+          RowBox[{"<|", 
+           RowBox[{"1", "\[Rule]", "0"}], "|>"}]}], ",", 
+         "\[IndentingNewLine]", "ticks", ",", "\[IndentingNewLine]", "mesh"}],
+         "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"(*", 
+        RowBox[{
+         RowBox[{"Print", "[", 
+          RowBox[{"OptionValue", "[", "PlotMarkers", "]"}], "]"}], ";"}], 
+        "*)"}], "\[IndentingNewLine]", 
+       RowBox[{"(*", 
+        RowBox[{
+        "\:57fa\:7840\:4f5c\:56fe", ",", "\:753b\:56fe\:4f8b", ",", 
+         "\:8c03\:7528\:539f\:672c\:7684plot"}], "*)"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"plot", "[", "1", "]"}], "=", 
+         RowBox[{"ListPlot", "[", 
+          RowBox[{"inf", ",", 
+           RowBox[{"PlotLegends", "\[Rule]", 
+            RowBox[{"Placed", "[", 
+             RowBox[{
+              RowBox[{"SwatchLegend", "[", 
+               RowBox[{
+                RowBox[{"OptionValue", "[", "lable", "]"}], ",", 
+                RowBox[{"LegendMarkers", "\[Rule]", "\"\<Line\>\""}], ",", 
+                RowBox[{"LegendFunction", "\[Rule]", "shadowbox"}], ",", 
+                RowBox[{"LegendLayout", "\[Rule]", 
+                 RowBox[{"OptionValue", "[", "LegendLayout", "]"}]}]}], "]"}],
+               ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"0.7", ",", "0.9"}], "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"0.5", ",", "0.9"}], "}"}]}], "}"}]}], "]"}]}]}], 
+          "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"(*", "\:63d0\:53d6plot\:4e2d\:7684\:8303\:56f4", "*)"}], 
+        "\[IndentingNewLine]", 
+        RowBox[{"range", "=", 
+         RowBox[{
+          RowBox[{"MapIndexed", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"#2", "[", 
+               RowBox[{"[", "1", "]"}], "]"}], "\[Rule]", "#1"}], "&"}], ",", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"PlotRange", "/.", 
+                RowBox[{"AbsoluteOptions", "[", 
+                 RowBox[{"#", ",", "PlotRange"}], "]"}]}], ")"}], "&"}], "/@", 
+             RowBox[{"Values", "[", "plot", "]"}]}]}], "]"}], "//", 
+          "Association"}]}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", 
+        RowBox[{"(*", "\:523b\:5ea6\:5212\:5206", "*)"}], 
+        "\[IndentingNewLine]", 
+        RowBox[{"ticks", "=", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"#", ",", "#", ",", 
+                  RowBox[{"{", 
+                   RowBox[{"0", ",", ".015"}], "}"}]}], "}"}], "&"}], "/@", 
+               RowBox[{"(", 
+                RowBox[{"N", "@", 
+                 RowBox[{"FindDivisions", "[", 
+                  RowBox[{
+                   RowBox[{"#", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], ",", "6"}], "]"}]}], 
+                ")"}]}], ")"}], ",", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"#", ",", "\"\<\>\"", ",", 
+                  RowBox[{"{", 
+                   RowBox[{"0", ",", ".008"}], "}"}]}], "}"}], "&"}], "/@", 
+               RowBox[{"N", "@", 
+                RowBox[{"FindDivisions", "[", 
+                 RowBox[{
+                  RowBox[{"#", "[", 
+                   RowBox[{"[", "1", "]"}], "]"}], ",", "30"}], "]"}]}]}], 
+              ")"}], ",", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"#", ",", "#", ",", 
+                  RowBox[{"{", 
+                   RowBox[{"0", ",", ".015"}], "}"}]}], "}"}], "&"}], "/@", 
+               RowBox[{"(", 
+                RowBox[{"N", "@", 
+                 RowBox[{"FindDivisions", "[", 
+                  RowBox[{
+                   RowBox[{"#", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}], ",", "5"}], "]"}]}], 
+                ")"}]}], ")"}], ",", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"#", ",", "\"\<\>\"", ",", 
+                  RowBox[{"{", 
+                   RowBox[{"0", ",", ".008"}], "}"}]}], "}"}], "&"}], "/@", 
+               RowBox[{"N", "@", 
+                RowBox[{"FindDivisions", "[", 
+                 RowBox[{
+                  RowBox[{"#", "[", 
+                   RowBox[{"[", "2", "]"}], "]"}], ",", "25"}], "]"}]}]}], 
+              ")"}]}], "}"}], "&"}], "/@", "range"}]}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{"(*", "\:6807\:8bb0\:70b9", "*)"}], "\[IndentingNewLine]", 
+        RowBox[{"mesh", "=", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"ListPlot", "[", 
+            RowBox[{"inf", ",", 
+             RowBox[{"PlotMarkers", "\[Rule]", 
+              RowBox[{"OptionValue", "[", "PlotMarkers", "]"}]}], ",", 
+             RowBox[{"PlotLegends", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"x", ",", "y"}], "}"}]}], ",", 
+             RowBox[{"PlotTheme", "->", "\"\<Default\>\""}]}], "]"}], "&"}], "/@",
+           "ticks"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{"Echo", "[", 
+          RowBox[{
+           RowBox[{"mesh", "[", "1", "]"}], "[", 
+           RowBox[{"[", 
+            RowBox[{"1", ",", "1"}], "]"}], "]"}], "]"}], "*)"}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{"(*", "\:7efc\:5408\:8bbe\:7f6e", "*)"}], 
+        "\[IndentingNewLine]", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"plot", "[", "1", "]"}], "/.", 
+          RowBox[{"{", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Graphics", "[", 
+              RowBox[{"graph_", ",", "s___"}], "]"}], "\[RuleDelayed]", 
+             RowBox[{"Graphics", "[", 
+              RowBox[{
+               RowBox[{"{", "graph", 
+                RowBox[{"(*", 
+                 RowBox[{",", 
+                  RowBox[{
+                   RowBox[{"mesh", "[", "1", "]"}], "[", 
+                   RowBox[{"[", 
+                    RowBox[{"1", ",", "1"}], "]"}], "]"}]}], "*)"}], "}"}], 
+               ",", "other", ",", 
+               RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+               "\[IndentingNewLine]", 
+               RowBox[{"FrameLabel", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"5", 
+                   FractionBox["h", "y"], " ", "E"}], ",", "\"\<Y,y\>\""}], 
+                 "}"}]}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+               RowBox[{"FrameStyle", "\[Rule]", 
+                RowBox[{"Directive", "[", "Black", "]"}]}], ",", 
+               "\[IndentingNewLine]", "\[IndentingNewLine]", 
+               "\[IndentingNewLine]", 
+               RowBox[{"FrameTicks", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", "3", "]"}], "]"}], "~", "Join", "~", 
+                    RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", "4", "]"}], "]"}]}], ",", "None"}], "}"}], 
+                  ",", 
+                  RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], "~", "Join", "~", 
+                    RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], ",", "None"}], "}"}]}], 
+                 "}"}]}], ",", "\[IndentingNewLine]", 
+               RowBox[{"BaseStyle", "->", 
+                RowBox[{"{", 
+                 RowBox[{"Black", ",", "10", ",", 
+                  RowBox[{"FontFamily", "\[Rule]", "\"\<Cambria\>\""}]}], 
+                 "}"}]}], ",", "\[IndentingNewLine]", 
+               RowBox[{"GridLines", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", 
+                    RowBox[{"1", ",", ";;", ",", "1"}], "]"}], "]"}], "~", 
+                   "Join", "~", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"{", 
+                    RowBox[{"#", ",", "Dashed"}], "}"}], ")"}], "&"}], "/@", 
+                    RowBox[{"MovingAverage", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", 
+                    RowBox[{"1", ",", ";;", ",", "1"}], "]"}], "]"}], ",", 
+                    "2"}], "]"}]}], ")"}]}], ",", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", 
+                    RowBox[{"3", ",", ";;", ",", "1"}], "]"}], "]"}], "~", 
+                   "Join", "~", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"{", 
+                    RowBox[{"#", ",", "Dashed"}], "}"}], ")"}], "&"}], "/@", 
+                    RowBox[{"MovingAverage", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"ticks", "[", "1", "]"}], "[", 
+                    RowBox[{"[", 
+                    RowBox[{"3", ",", ";;", ",", "1"}], "]"}], "]"}], ",", 
+                    "2"}], "]"}]}], ")"}]}]}], "}"}]}], ",", 
+               "\[IndentingNewLine]", 
+               RowBox[{"GridLinesStyle", "\[Rule]", 
+                RowBox[{"Directive", "[", "Gray", "]"}]}], ",", 
+               "\[IndentingNewLine]", "s"}], "\[IndentingNewLine]", "]"}]}], 
+            "\[IndentingNewLine]", 
+            RowBox[{"(*", 
+             RowBox[{",", 
+              RowBox[{
+               RowBox[{"(", 
+                RowBox[{"LegendMarkers", "\[Rule]", "x___"}], ")"}], 
+               "\[Rule]", 
+               RowBox[{"Echo", "@", 
+                RowBox[{"(", 
+                 RowBox[{"LegendMarkers", "\[Rule]", 
+                  RowBox[{"(*", 
+                   RowBox[{"Graphics", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"Echo", "@", 
+                    RowBox[{"Inset", "["}]}]}]}], "*)"}], 
+                  RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"Cases", "[", 
+                    RowBox[{
+                    RowBox[{"mesh", "[", "1", "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"Rule", "[", 
+                    RowBox[{"LegendMarkers", ",", "x___"}], "]"}], "->", 
+                    "x"}], ",", "Infinity"}], "]"}], "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], "}"}]}], 
+                 RowBox[{"(*", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{",", 
+                    RowBox[{"{", 
+                    RowBox[{"0.5", ",", "0.5"}], "}"}], ",", "Center"}], 
+                    "]"}], "}"}], "]"}], "*)"}], ")"}]}]}]}], "*)"}], 
+            "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"LegendMarkers", "\[Rule]", "x___"}], ")"}], "\[Rule]", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"LegendMarkers", "\[Rule]", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"Cases", "[", 
+                   RowBox[{
+                    RowBox[{"mesh", "[", "1", "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"Rule", "[", 
+                    RowBox[{"LegendMarkers", ",", "x___"}], "]"}], "->", 
+                    "x"}], ",", "Infinity"}], "]"}], "[", 
+                  RowBox[{"[", "1", "]"}], "]"}], ")"}]}], "/.", 
+               RowBox[{
+                RowBox[{"Graphics", "[", 
+                 RowBox[{"x_", ",", "y___"}], "]"}], ":>", 
+                RowBox[{"Graphics", "[", 
+                 RowBox[{"(*", 
+                  RowBox[{
+                   RowBox[{"Print", "[", 
+                    RowBox[{"x", "//", "FullForm"}], "]"}], ";"}], "*)"}], 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"Line", "[", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"Offset", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"20", ",", "0"}], "}"}], "]"}], ",", 
+                    RowBox[{"Offset", "[", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"-", "20"}], ",", "0"}], "}"}], "]"}]}], "}"}], 
+                    "]"}], "}"}], "~", "Join", "~", "x"}], ",", "y"}], 
+                 "]"}]}]}], 
+              RowBox[{"(*", 
+               RowBox[{"/.", " ", 
+                RowBox[{"9.75`", "\[Rule]", "20"}]}], "*)"}], ")"}]}]}], 
+           "\[IndentingNewLine]", "\[IndentingNewLine]", "}"}]}], ")"}]}]}], 
+      "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"thelistlineplot", "[", "x___", "]"}], "[", 
+     RowBox[{
+      RowBox[{"inf_", "?", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Head", "[", "#", "]"}], "=!=", "List"}], "&"}], ")"}]}], 
+      ",", "other___"}], "]"}], ":=", 
+    RowBox[{
+     RowBox[{"thelistlineplot", "[", "x", "]"}], "[", 
+     RowBox[{
+      RowBox[{"{", "inf", "}"}], ",", "other"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"thelistlineplot", "[", 
       RowBox[{"OptionsPattern", "[", 
        RowBox[{"{", 
         RowBox[{
@@ -2978,7 +3473,7 @@ Cell[BoxData[
       RowBox[{
        RowBox[{
         RowBox[{"plot", "[", "1", "]"}], "=", 
-        RowBox[{"ListPlot", "[", 
+        RowBox[{"ListLinePlot", "[", 
          RowBox[{"inf", ",", 
           RowBox[{"PlotLegends", "\[Rule]", 
            RowBox[{"Placed", "[", 
@@ -3280,139 +3775,7 @@ Cell[BoxData[
                RowBox[{"9.75`", "\[Rule]", "20"}]}], "*)"}], ")"}]}]}], 
           "\[IndentingNewLine]", "\[IndentingNewLine]", "}"}]}], ")"}]}]}], 
      "\[IndentingNewLine]", "]"}]}]}]}]], "Input",
- CellLabel->"In[20]:=",ExpressionUUID->"d697b737-5e60-40a2-aff6-fd82e827db81"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"thelistplot", "[", "]"}], "[", 
-  RowBox[{"{", 
-   RowBox[{"1", ",", "2", ",", "4"}], "}"}], "]"}]], "Input",
- CellLabel->"In[7]:=",ExpressionUUID->"5be809cd-0072-458c-af3b-df5648c84256"],
-
-Cell[BoxData[
- GraphicsBox[{{}, {
-    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`],
-      AbsoluteThickness[1.6], PointBox[{{1., 1.}, {2., 2.}, {3., 4.}}]}, {
-     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-      0.012833333333333334`], AbsoluteThickness[1.6]}, {}}, {
-     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-      0.012833333333333334`], AbsoluteThickness[1.6]}, {}}}, {{}, {}}},
-  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
-  Axes->{True, True},
-  AxesLabel->{None, None},
-  AxesOrigin->{0., 0},
-  BaseStyle->{
-    GrayLevel[0], 10, FontFamily -> "Cambria"},
-  DisplayFunction->Identity,
-  Frame->True,
-  FrameLabel->{
-    FormBox[
-     FractionBox[
-      RowBox[{"5", " ", "\[ExponentialE]", " ", "h"}], "y"], TraditionalForm], 
-    FormBox["\"Y,y\"", TraditionalForm]},
-  FrameStyle->Directive[
-    GrayLevel[0]],
-  FrameTicks->{{{{0., 
-       FormBox["0.`", TraditionalForm], {0, 0.015}}, {1., 
-       FormBox["1.`", TraditionalForm], {0, 0.015}}, {2., 
-       FormBox["2.`", TraditionalForm], {0, 0.015}}, {3., 
-       FormBox["3.`", TraditionalForm], {0, 0.015}}, {4., 
-       FormBox["4.`", TraditionalForm], {0, 0.015}}, {0., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.2, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.4, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.6, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.8, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.2, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.4, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.6, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.8, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.2, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.4, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.6, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.8, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3.2, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3.4, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3.6, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3.8, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {4., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}}, None}, {{{0., 
-       FormBox["0.`", TraditionalForm], {0, 0.015}}, {0.5, 
-       FormBox["0.5`", TraditionalForm], {0, 0.015}}, {1., 
-       FormBox["1.`", TraditionalForm], {0, 0.015}}, {1.5, 
-       FormBox["1.5`", TraditionalForm], {0, 0.015}}, {2., 
-       FormBox["2.`", TraditionalForm], {0, 0.015}}, {2.5, 
-       FormBox["2.5`", TraditionalForm], {0, 0.015}}, {3., 
-       FormBox["3.`", TraditionalForm], {0, 0.015}}, {0., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.1, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.2, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.3, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.4, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.5, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.6, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.7, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.8, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {0.9, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.1, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.2, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.3, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.4, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.5, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.6, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.7, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.8, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {1.9, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.1, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.2, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.3, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.4, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.5, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.6, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.7, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.8, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {2.9, 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}, {3., 
-       FormBox["\"\"", TraditionalForm], {0, 0.008}}}, None}},
-  GridLines->{{0., 0.5, 1., 1.5, 2., 2.5, 3., {0.25, 
-      Dashing[{Small, Small}]}, {0.75, 
-      Dashing[{Small, Small}]}, {1.25, 
-      Dashing[{Small, Small}]}, {1.75, 
-      Dashing[{Small, Small}]}, {2.25, 
-      Dashing[{Small, Small}]}, {2.75, 
-      Dashing[{Small, Small}]}}, {0., 1., 2., 3., 4., {0.5, 
-      Dashing[{Small, Small}]}, {1.5, 
-      Dashing[{Small, Small}]}, {2.5, 
-      Dashing[{Small, Small}]}, {3.5, 
-      Dashing[{Small, Small}]}}},
-  GridLinesStyle->Directive[
-    GrayLevel[0.5]],
-  Method->{
-   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
-    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-        Identity[
-         Part[#, 1]], 
-        Identity[
-         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-        Identity[
-         Part[#, 1]], 
-        Identity[
-         Part[#, 2]]}& )}},
-  PlotRange->{{0., 3.}, {0, 4.}},
-  PlotRangeClipping->True,
-  PlotRangePadding->{{
-     Scaled[0.02], 
-     Scaled[0.02]}, {
-     Scaled[0.02], 
-     Scaled[0.05]}},
-  Ticks->{Automatic, Automatic}]], "Output",
- CellLabel->"Out[7]=",ExpressionUUID->"2eabac47-cf0b-4f2b-a529-80bd05959f58"]
-}, Open  ]]
+ CellLabel->"In[41]:=",ExpressionUUID->"d697b737-5e60-40a2-aff6-fd82e827db81"]
 },
 WindowSize->{1350, 709},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -3432,28 +3795,28 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 364, 10, 44, "Input",ExpressionUUID->"f6932c38-91fa-46d3-b35e-eb458e95bd90"],
+Cell[558, 20, 364, 10, 45, "Input",ExpressionUUID->"f6932c38-91fa-46d3-b35e-eb458e95bd90"],
 Cell[CellGroupData[{
 Cell[947, 34, 88, 0, 28, "Input",ExpressionUUID->"1d5de40b-1ec0-4ace-9226-40851f368307"],
 Cell[1038, 36, 129, 2, 32, "Output",ExpressionUUID->"a9d29786-c3c0-45e2-b833-cc4b600be4f3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1204, 43, 581, 18, 61, "Input",ExpressionUUID->"6939f2ac-8d96-4989-bcb0-ddf7d798558b"],
-Cell[1788, 63, 27151, 544, 269, "Output",ExpressionUUID->"fbb48891-c3ee-48ef-92e5-bff235ab2d8d"]
+Cell[1204, 43, 581, 18, 65, "Input",ExpressionUUID->"6939f2ac-8d96-4989-bcb0-ddf7d798558b"],
+Cell[1788, 63, 27151, 544, 272, "Output",ExpressionUUID->"fbb48891-c3ee-48ef-92e5-bff235ab2d8d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28976, 612, 1047, 31, 108, "Input",ExpressionUUID->"9b1263d4-3aff-4938-afb2-eb69b337e556"],
-Cell[30026, 645, 63523, 1311, 269, "Output",ExpressionUUID->"7560e228-6745-4e61-bfec-957226d53f20"]
+Cell[28976, 612, 1047, 31, 65, "Input",ExpressionUUID->"9b1263d4-3aff-4938-afb2-eb69b337e556"],
+Cell[30026, 645, 63523, 1311, 272, "Output",ExpressionUUID->"7560e228-6745-4e61-bfec-957226d53f20"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[93586, 1961, 476, 13, 44, "Input",ExpressionUUID->"73c05d95-34b3-4859-90bc-f1e47c532e1e"],
-Cell[94065, 1976, 25317, 531, 273, "Output",ExpressionUUID->"5718d0ca-b08b-40f7-a4a4-d730a7f5ec7f"]
+Cell[93586, 1961, 476, 13, 45, "Input",ExpressionUUID->"73c05d95-34b3-4859-90bc-f1e47c532e1e"],
+Cell[94065, 1976, 25317, 531, 276, "Output",ExpressionUUID->"5718d0ca-b08b-40f7-a4a4-d730a7f5ec7f"]
 }, Open  ]],
-Cell[119397, 2510, 31625, 772, 3409, "Input",ExpressionUUID->"d697b737-5e60-40a2-aff6-fd82e827db81"],
 Cell[CellGroupData[{
-Cell[151047, 3286, 222, 5, 28, "Input",ExpressionUUID->"5be809cd-0072-458c-af3b-df5648c84256"],
-Cell[151272, 3293, 5942, 120, 273, "Output",ExpressionUUID->"2eabac47-cf0b-4f2b-a529-80bd05959f58"]
-}, Open  ]]
+Cell[119419, 2512, 203, 4, 45, "Input",ExpressionUUID->"33210e0c-e5a9-4aa9-b48c-ef0e7f97d70d"],
+Cell[119625, 2518, 5671, 120, 272, "Output",ExpressionUUID->"cc312a2b-5543-4704-bf7e-518f1b1a1a1e"]
+}, Open  ]],
+Cell[125311, 2641, 46668, 1136, 4107, "Input",ExpressionUUID->"d697b737-5e60-40a2-aff6-fd82e827db81"]
 }
 ]
 *)
